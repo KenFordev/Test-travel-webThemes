@@ -1,0 +1,8 @@
+.header-bg {
+    height: auto;
+    background: var(--color-bg-sky)
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}

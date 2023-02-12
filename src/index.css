@@ -1,0 +1,89 @@
+:root {
+    --color-bg-sky: rgb(38, 181, 209);
+    --color-text-white: antiquewhite;
+    --color-text-title: rgb(108, 106, 106);
+    --color-text-header:rgb(38, 174, 131);
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.theme-options {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    height: 100%;
+}
+.theme-options div {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 2px 10px;
+    border: 1px solid #fff;
+    display: inline-block;
+    opacity: .5;
+}
+.theme-options div.active {
+    opacity: 1;
+}
+#theme-blue-white {
+    background: var(--color-bg-sky);
+}
+#theme-red-black {
+    background-color: red;
+}
+#theme-black-gold {
+    background-color: yellow;
+}
+
+.header-bg.theme-blue-white {
+    background-color: var(--color-bg-sky);
+}
+.theme-red-black {
+    background-color: rgb(165, 3, 3);
+}
+.theme-black-gold {
+    background-color: rgb(205, 182, 10);
+}
+.theme-black-gold .logo-container a {
+    color: #000;
+}
+.theme-black-gold .menu .menu-link a{
+    color: #000;
+}
+/* ======================================================== */
+.theme-red-black .content-header-title p {
+    color: #000;
+}
+.theme-red-black .header-travel h2
+{
+    color: #000;
+}
+.theme-red-black .header-travel p {
+    color: #000000;
+}
+.theme-red-black .title-travel p {
+    color: #000;
+}
+.theme-red-black .travel-footer p {
+    color: #000;
+}
+/* ======================================================== */
+.theme-black-gold .content-header-title p {
+    color: #000;
+}
+.theme-black-gold .header-travel h2
+{
+    color: #000;
+}
+.theme-black-gold .header-travel p {
+    color: #000000;
+}
+.theme-black-gold .title-travel p {
+    color: #000;
+}
+.theme-black-gold .travel-footer p {
+    color: #000;
+}
+/* ======================================================== */
